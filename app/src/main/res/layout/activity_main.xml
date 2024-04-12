@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AFB9F6"
+    android:background="@drawable/round_bground"
     android:orientation="vertical"
     tools:context=".AppsLoginActivity">
 
@@ -28,7 +28,8 @@
         android:drawableStart="@drawable/round_person"
         android:hint="Usuário"
         android:inputType="textPersonName"
-        android:maxLength="50" />
+        android:maxLength="50"
+        android:textColorHint="@color/black" />
 
     <EditText
         android:layout_width="250dp"
@@ -38,7 +39,8 @@
         android:drawableStart="@drawable/round_email"
         android:hint="Email"
         android:inputType="textPassword"
-        android:maxLength="50" />
+        android:maxLength="50"
+        android:textColorHint="@color/black" />
 
     <EditText
         android:layout_width="250dp"
@@ -48,7 +50,8 @@
         android:drawableStart="@drawable/round_lock"
         android:hint="Digite sua senha"
         android:inputType="textPassword"
-        android:maxLength="50" />
+        android:maxLength="50"
+        android:textColorHint="@color/black" />
 
     <EditText
         android:layout_width="250dp"
@@ -58,7 +61,8 @@
         android:drawableStart="@drawable/round_lock"
         android:hint="Confirme sua senha"
         android:inputType="textPassword"
-        android:maxLength="50" />
+        android:maxLength="50"
+        android:textColorHint="@color/black" />
 
     <Button
         android:layout_width="wrap_content"
